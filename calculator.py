@@ -15,11 +15,11 @@ def print_data(key):
 
 def answer():
     try:
-        word = eval(display.get())
-        display.set(word)
+        answer = eval(display.get())
+        display.set(answer)
     except:
-        word = "ERROR"
-        display.set(word)
+        answer = "ERROR"
+        display.set(answer)
 
 window = Tk()
 window.geometry("{}x{}".format(screen_width, screen_height))
